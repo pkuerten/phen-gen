@@ -13,7 +13,7 @@ Our standalone (Version 1.0) is available under the GNU General Public License. 
 
 To install the standalone:
 Check that Perl is already installed: type perl -v on the command line. If it's not available, click here to install it.
-Download the standalone. (Size 2.9 GB)
+Download the standalone(https://www.dropbox.com/s/5go2pvzer46e0g9/Phen-GenV1.tar.gz?dl=0). (Size 2.9 GB)
 Transfer the downloaded file to the directory where you want to run it (e.g. /home/yourusername/phengen).
 To decompress and extract the contents of the standalone: tar -zxvf Phen-GenV1.tar.gz
 To run the standalone:
