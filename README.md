@@ -6,3 +6,19 @@ We introduce Phen-Gen, a method that combines patients' disease symptoms and seq
 
 # Citation
 Javed, A., Agrawal, S. & Ng, P. C. Phen-Gen: combining phenotype and genotype to analyze rare disorders. Nat Methods. 2014 Sep;11(9):935-7. doi:10.1038/nmeth.3046. Epub 2014 Aug 3. PubMed PMID: 25086502.
+
+# Phen-Gen standalone
+
+Our standalone (Version 1.0) is available under the GNU General Public License. It has been tested in Linux environment (Ubuntu 12.04.3 LTS, CentOS 6.1, and RHEL 6.1).
+
+To install the standalone:
+Check that Perl is already installed: type perl -v on the command line. If it's not available, click here to install it.
+Download the standalone. (Size 2.9 GB)
+Transfer the downloaded file to the directory where you want to run it (e.g. /home/yourusername/phengen).
+To decompress and extract the contents of the standalone: tar -zxvf Phen-GenV1.tar.gz
+To run the standalone:
+
+Execute the command:
+perl phen-gen.pl input_phenotype=< text > input_vcf=< vcf > input_ped=< ped > inheritance=< i > predictor=< p > stringency=< s > discard_de_novo=< d > 
+
+Please refer to README.txt for a description of the command line and its parameters, and file formats. The approximate run time is 15 minutes. 
